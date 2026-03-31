@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "NexonLv1Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexonLv1Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NexonLv1Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+.slider_img {
+  width: 100%;
+  height: 580px;
+}
+.s1 {
+  background: url(img/bannerSlider01.jpg) center top;
+}
+.s2 {
+  background: url(img/bannerSlider02.jpg) center top;
+}
+.s3 {
+  background: url(img/bannerSlider03.jpg) center top;
+}
+.desc {
+  font-family: "GMarketSans";
+  height: inherit;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+.desc span {
+  background-color: #fff;
+  padding: 1px 14px 2px 14px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.desc h3 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 1;
+}
+.desc p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+  width: 507px;
+  line-height: 1.33;
+  margin-bottom: 70px;
+}
+.desc .btn {
+}
+.desc .btn a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 11px 50px;
+}
+.desc .btn a.brown {
+  margin-left: 20px;
+  background-color: #202022;
+  color: #fff;
+}
+
+/* swiper */
+.dessert_hero .swiper-button-next,
+.dessert_hero .swiper-button-prev {
+  color: #fff;
+}
+
+.dessert_hero .swiper-pagination-bullet-active {
+  background: #ffffff;
+}
+.dessert_hero {
+  --swiper-pagination-bullet-size: 15px;
+  --swiper-pagination-bullet-inactive-color: #292323;
+  --swiper-pagination-bullet-inactive-opacity: 0.8;
+  --swiper-pagination-bullet-horizontal-gap: 5px;
+}
